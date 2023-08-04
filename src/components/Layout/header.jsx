@@ -1,6 +1,4 @@
-import { useState } from "react";
-import Sidebar from "./sidebar";
-import { FaGripVertical } from "react-icons/fa";
+import React from "react";
 
 const Header = () => {
   return (
