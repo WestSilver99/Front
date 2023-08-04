@@ -19,40 +19,25 @@ const Banner = () => {
     transitionTime: 500,
     centerSlidePercentage: true,
   };
+  const banners = [
+    { image: Banner1, text: "함꼐하는 등산라이프" },
+    { image: Banner2, text: "함꼐하는 등산라이프" },
+    { image: Banner3, text: "함꼐하는 등산라이프" },
+    { image: Banner4, text: "함꼐하는 등산라이프" },
+    { image: Banner5, text: "함꼐하는 등산라이프" },
+  ];
 
   return (
     <div className="lg:w-full lg:mx-auto xl:w-full xl:mx-auto">
       <Carousel {...settings}>
-        <div>
-          <img src={Banner1} alt="Banner 1" />
-          <p className="text-red-500 font-bold z-50  absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xl:text-3xl lg:text-3xl sm:text-2xl md:text-2xl">
-            함꼐하는 등산라이프
-          </p>
-        </div>
-        <div>
-          <img src={Banner2} alt="Banner 2" />
-          <p className="text-red-500 font-bold z-50  absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xl:text-3xl lg:text-3xl sm:text-2xl md:text-2xl">
-            함꼐하는 등산라이프
-          </p>
-        </div>
-        <div>
-          <img src={Banner3} alt="Banner 3" />
-          <p className="text-red-500 font-bold z-50  absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xl:text-3xl lg:text-3xl sm:text-2xl md:text-2xl">
-            함꼐하는 등산라이프
-          </p>
-        </div>
-        <div>
-          <img src={Banner4} alt="Banner 4" />
-          <p className="text-red-500 font-bold z-50  absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xl:text-3xl lg:text-3xl sm:text-2xl md:text-2xl">
-            함꼐하는 등산라이프
-          </p>
-        </div>
-        <div>
-          <img src={Banner5} alt="Banner 5" />
-          <p className="text-red-500 font-bold z-50  absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xl:text-3xl lg:text-3xl sm:text-2xl md:text-2xl">
-            함꼐하는 등산라이프
-          </p>
-        </div>
+        {banners.map((banner, index) => (
+          <div key={index}>
+            <img src={banner.image} alt={`Banner ${index + 1}`} />
+            <p className="text-red-500 font-bold z-50 absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xl:text-3xl lg:text-3xl sm:text-2xl md:text-2xl">
+              {banner.text}
+            </p>
+          </div>
+        ))}
       </Carousel>
     </div>
   );
