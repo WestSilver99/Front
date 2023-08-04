@@ -4,6 +4,8 @@ import Layout from "@components/Layout/layout";
 import Home from "@pages/Home";
 import Login from "@pages/Login";
 import Logout from "@pages/Logout";
+import Mountains from "@pages/Mountains";
+import MountainDetail from "@pages/Mountains/Mountain";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />
+          <Route path="/mountains" element={<Mountains />} />
+          <Route path="/mountains/:id" element={<MountainDetail />} />
         </Routes>
       </Layout>
     </BrowserRouter>
