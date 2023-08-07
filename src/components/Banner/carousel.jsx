@@ -5,7 +5,7 @@ import BannerImg from "@assets/banner.png";
 
 const Banner = () => {
   const settings = {
-    autoPlay: false,
+    autoPlay: true,
     interval: 3000,
     showArrows: true,
     showIndicators: false,
@@ -24,7 +24,7 @@ const Banner = () => {
   ];
 
   return (
-    <div className="lg:w-full lg:mx-auto xl:w-full xl:mx-auto">
+    <div className="w-full">
       <Carousel {...settings}>
         {banners.map((banner, index) => (
           <div key={index}>
