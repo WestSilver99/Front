@@ -5,7 +5,7 @@ import BannerImg from "@assets/banner.png";
 
 const Banner = () => {
   const settings = {
-    autoPlay: false,
+    autoPlay: true,
     interval: 3000,
     showArrows: true,
     showIndicators: false,
