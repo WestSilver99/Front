@@ -1,4 +1,8 @@
 import Normal from "@assets/1.jpg";
+import Normal2 from "@assets/2.jpg";
+import Normal3 from "@assets/3.jpg";
+import Normal4 from "@assets/4.jpg";
+import Normal5 from "@assets/5.jpg";
 
 const useDummyPostData = [
   {
@@ -8,25 +12,25 @@ const useDummyPostData = [
     id: "1",
   },
   {
-    image: Normal,
+    image: Normal2,
     title: "북한산",
     time: "1시간 40분",
     id: "2",
   },
   {
-    image: Normal,
+    image: Normal3,
     title: "제왕산",
     time: "1시간 40분",
     id: "3",
   },
   {
-    image: Normal,
+    image: Normal4,
     title: "알파산",
     time: "1시간 40분",
     id: "4",
   },
   {
-    image: Normal,
+    image: Normal5,
     title: "베타산",
     time: "1시간 40분",
     id: "5",
@@ -38,25 +42,25 @@ const useDummyPostData = [
     id: "6",
   },
   {
-    image: Normal,
+    image: Normal2,
     title: "ㅂㅣ산",
     time: "1시간 40분",
     id: "7",
   },
   {
-    image: Normal,
+    image: Normal3,
     title: "씨산",
     time: "1시간 40분",
     id: "8",
   },
   {
-    image: Normal,
+    image: Normal4,
     title: "D산",
     time: "1시간 40분",
     id: "9",
   },
   {
-    image: Normal,
+    image: Normal5,
     title: "F산",
     time: "1시간 40분",
     id: "10",
@@ -68,25 +72,25 @@ const useDummyPostData = [
     id: "11",
   },
   {
-    image: Normal,
+    image: Normal2,
     title: "G산",
     time: "1시간 40분",
     id: "12",
   },
   {
-    image: Normal,
+    image: Normal3,
     title: "K산",
     time: "1시간 40분",
     id: "13",
   },
   {
-    image: Normal,
+    image: Normal4,
     title: "M산",
     time: "1시간 40분",
     id: "14",
   },
   {
-    image: Normal,
+    image: Normal5,
     title: "N산",
     time: "1시간 40분",
     id: "15",
@@ -98,13 +102,13 @@ const useDummyPostData = [
     id: "16",
   },
   {
-    image: Normal,
+    image: Normal2,
     title: "SD산",
     time: "1시간 40분",
     id: "17",
   },
   {
-    image: Normal,
+    image: Normal3,
     title: "EEFFD산",
     time: "1시간 40분",
     id: "18",
