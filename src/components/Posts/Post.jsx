@@ -9,7 +9,7 @@ const Post = ({ post }) => {
           <img
             src={post.image}
             alt={post.title}
-            className="w-48 h-full object-cover mb-2"
+            className="w-[300px] h-[450px] object-cover mb-2"
           />
         </Link>
         <p className="text-xl font-bold">{post.title}</p>
