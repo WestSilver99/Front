@@ -15,7 +15,7 @@ const MainPosts = () => {
 
   return (
     <div>
-      <div className="my-10 grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4">
+      <div className="my-10 grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 p-[10px] m-[5px]">
         {currentPosts.map((post, index) => (
           <Post key={index} post={post} />
         ))}

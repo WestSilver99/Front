@@ -6,7 +6,9 @@ const Home = () => {
   return (
     <div>
       <Banner />
-      <MainPosts />
+      <div className="my-20 lg:w-2/3 lg:mx-auto xl:w-2/3 xl:mx-auto">
+        <MainPosts />
+      </div>
     </div>
   );
 };
