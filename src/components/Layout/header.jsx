@@ -1,8 +1,10 @@
 import SearchBar from "@utils/search";
 import React from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <nav className=" w-full xl:py-6 xl:px-20 md:px-10 ">
       <div className=" max-w-screen-xl ml-3 flex flex-wrap items-center justify-between mx-auto p-4">
@@ -11,6 +13,13 @@ const Header = () => {
             SANTA
           </span>
         </Link>
+        <button
+          onClick={() => {
+            navigate("/login");
+          }}
+        >
+          로그인
+        </button>
         <SearchBar />
       </div>
     </nav>
