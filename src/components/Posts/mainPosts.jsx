@@ -23,6 +23,7 @@ const MainPosts = () => {
       <Pagination
         postsPerPage={postPerPage}
         totalPosts={dummyData.length}
+        currentPage={currentPage}
         paginate={paginate}
       />
     </div>
