@@ -1,14 +1,14 @@
+import Banner from "@components/Banner/carousel";
+import MainPosts from "@components/Posts/mainPosts";
 import React from "react";
 
 const Home = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Banner />
+      <div className="my-20 lg:w-2/3 lg:mx-auto xl:w-2/3 xl:mx-auto">
+        <MainPosts />
+      </div>
     </div>
   );
 };
