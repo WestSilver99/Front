@@ -2,7 +2,7 @@ import SearchBar from "@utils/search";
 import React from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-
+import { BsFillPersonFill } from "react-icons/bs";
 const Header = () => {
   const navigate = useNavigate();
   return (
@@ -14,11 +14,12 @@ const Header = () => {
           </span>
         </Link>
         <button
+          className="text-2xl text-[#96A68C]"
           onClick={() => {
             navigate("/login");
           }}
         >
-          로그인
+          <BsFillPersonFill />
         </button>
         <SearchBar />
       </div>
