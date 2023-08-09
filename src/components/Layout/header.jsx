@@ -2,9 +2,9 @@ import SearchBar from "@utils/search";
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillPersonFill } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-
   const navigate = useNavigate();
   return (
     <nav className=" w-full xl:py-6 xl:px-20 md:px-10 sm:mb-10 ">
