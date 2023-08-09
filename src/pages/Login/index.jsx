@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import KaKaoLogin from "../../assets/kakaoLogin.png";
 
 const Login = () => {
   const REST_API_KEY = "c8be748be694cad38049c4bffb002b6c";
@@ -8,11 +9,16 @@ const Login = () => {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">로그인</h1>
-      <button>
-        <h1>
-          <Link to={KAKAO_AUTH_URL}>Kakao Login</Link>
-        </h1>
+      <h1 className="text-3xl text-center">회원가입</h1>
+      <span className="">
+        <p>아이디와 비밀번호 입력 없이</p>
+        <p>1초 회원가입으로 간편하게 이용하세요.</p>
+      </span>
+
+      <button className="kakaoLogin">
+        <Link to={KAKAO_AUTH_URL}>
+          <img src={KaKaoLogin} />
+        </Link>
       </button>
     </div>
   );
