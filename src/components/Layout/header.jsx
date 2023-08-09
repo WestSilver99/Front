@@ -1,15 +1,19 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { BsFillPersonFill, BsX } from "react-icons/bs";
+import { FaSearch } from "react-icons/fa";
 import SearchBar from "@utils/search";
-import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-  const navigate = useNavigate();
   const [showMenu, setShowMenu] = useState(false);
+  const [showSearchBar, setShowSearchBar] = useState(false);
 
   const handleToggleMenu = () => {
     setShowMenu(!showMenu);
+  };
+
+  const handleToggleSearch = () => {
+    setShowSearchBar(!showSearchBar);
   };
 
   return (
@@ -40,9 +44,15 @@ const Header = () => {
               <BsFillPersonFill size={30} color="green" />
             )}
           </button>
-          <SearchBar smHidden="hidden" />
+          <button
+            onClick={handleToggleSearch}
+            className="mr-2 mt-1 bg-transparent border-none outline-none transition-all duration-300"
+          >
+            <FaSearch size={24} color="green" />
+          </button>
         </div>
       </div>
+      {showSearchBar && <SearchBar />}
     </nav>
   );
 };
