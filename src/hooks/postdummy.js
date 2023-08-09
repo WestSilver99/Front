@@ -55,7 +55,7 @@ const useDummyPostData = [
     title: "북한산",
     time: "2시간 40분",
     id: "2",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -103,7 +103,7 @@ const useDummyPostData = [
     title: "제왕산",
     time: "4시간 40분",
     id: "3",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -151,7 +151,7 @@ const useDummyPostData = [
     title: "알파산",
     time: "5시간 40분",
     id: "4",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -199,7 +199,7 @@ const useDummyPostData = [
     title: "베타산",
     time: "1시간 40분",
     id: "5",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -247,7 +247,7 @@ const useDummyPostData = [
     title: "에이산",
     time: "1시간 40분",
     id: "6",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -295,7 +295,7 @@ const useDummyPostData = [
     title: "ㅂㅣ산",
     time: "12시간 40분",
     id: "7",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -343,7 +343,7 @@ const useDummyPostData = [
     title: "씨산",
     time: "1시간 40분",
     id: "8",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -391,7 +391,7 @@ const useDummyPostData = [
     title: "D산",
     time: "1시간 40분",
     id: "9",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -439,7 +439,7 @@ const useDummyPostData = [
     title: "F산",
     time: "1시간 40분",
     id: "10",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -487,7 +487,7 @@ const useDummyPostData = [
     title: "E산",
     time: "1시간 40분",
     id: "11",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -535,7 +535,7 @@ const useDummyPostData = [
     title: "G산",
     time: "1시간 40분",
     id: "12",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -583,7 +583,7 @@ const useDummyPostData = [
     title: "K산",
     time: "1시간 40분",
     id: "13",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -631,7 +631,7 @@ const useDummyPostData = [
     title: "M산",
     time: "1시간 40분",
     id: "14",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -679,7 +679,7 @@ const useDummyPostData = [
     title: "N산",
     time: "1시간 40분",
     id: "15",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -727,7 +727,7 @@ const useDummyPostData = [
     title: "DF산",
     time: "1시간 40분",
     id: "16",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -775,7 +775,7 @@ const useDummyPostData = [
     title: "SD산",
     time: "1시간 40분",
     id: "17",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -823,7 +823,7 @@ const useDummyPostData = [
     title: "EEFFD산",
     time: "1시간 40분",
     id: "18",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -871,7 +871,7 @@ const useDummyPostData = [
     title: "EEFFD산",
     time: "1시간 40분",
     id: "19",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -919,7 +919,7 @@ const useDummyPostData = [
     title: "F산",
     time: "1시간 40분",
     id: "20",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -967,7 +967,7 @@ const useDummyPostData = [
     title: "E산",
     time: "1시간 40분",
     id: "21",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1015,7 +1015,7 @@ const useDummyPostData = [
     title: "G산",
     time: "1시간 40분",
     id: "22",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1063,7 +1063,7 @@ const useDummyPostData = [
     title: "K산",
     time: "1시간 40분",
     id: "23",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1111,7 +1111,7 @@ const useDummyPostData = [
     title: "M산",
     time: "1시간 40분",
     id: "24",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1159,7 +1159,7 @@ const useDummyPostData = [
     title: "N산",
     time: "1시간 40분",
     id: "25",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1207,7 +1207,7 @@ const useDummyPostData = [
     title: "DF산",
     time: "1시간 40분",
     id: "26",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1255,7 +1255,7 @@ const useDummyPostData = [
     title: "SD산",
     time: "1시간 40분",
     id: "27",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1303,7 +1303,7 @@ const useDummyPostData = [
     title: "EEFFD산",
     time: "1시간 40분",
     id: "28",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1351,7 +1351,7 @@ const useDummyPostData = [
     title: "EEFFD산",
     time: "1시간 40분",
     id: "29",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1399,7 +1399,7 @@ const useDummyPostData = [
     title: "F산",
     time: "1시간 40분",
     id: "30",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1447,7 +1447,7 @@ const useDummyPostData = [
     title: "E산",
     time: "1시간 40분",
     id: "31",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1495,7 +1495,7 @@ const useDummyPostData = [
     title: "G산",
     time: "1시간 40분",
     id: "32",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1543,7 +1543,7 @@ const useDummyPostData = [
     title: "K산",
     time: "1시간 40분",
     id: "33",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1591,7 +1591,7 @@ const useDummyPostData = [
     title: "M산",
     time: "1시간 40분",
     id: "34",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1639,7 +1639,7 @@ const useDummyPostData = [
     title: "N산",
     time: "1시간 40분",
     id: "35",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1687,7 +1687,7 @@ const useDummyPostData = [
     title: "DF산",
     time: "1시간 40분",
     id: "36",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1735,7 +1735,7 @@ const useDummyPostData = [
     title: "SD산",
     time: "1시간 40분",
     id: "37",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1783,7 +1783,7 @@ const useDummyPostData = [
     title: "EEFFD산",
     time: "1시간 40분",
     id: "38",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
@@ -1831,7 +1831,7 @@ const useDummyPostData = [
     title: "EEFFD산",
     time: "1시간 40분",
     id: "39",
-    courseImage: Mountain,
+    courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
     traffic: ["1. 버스", "2. 지하철"],
