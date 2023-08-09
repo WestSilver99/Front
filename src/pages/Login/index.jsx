@@ -23,6 +23,15 @@ const Login = () => {
           </div>
         </Link>
       </button>
+      <div className="flex items-center mt-52">
+        <span>다양한 등산로 확인 가능</span>
+        <div className="border-r border-black h-40 mx-4"></div>
+        <span>다른 사람에게 추천 기능</span>
+        <div className="border-r border-black h-40 mx-4"></div>
+        <span>주변 관광지 확인 가능</span>
+        <div className="border-r border-black h-40 mx-4"></div>
+        <span>산에 대한 정보 확인 가능</span>
+      </div>
     </div>
   );
 };
