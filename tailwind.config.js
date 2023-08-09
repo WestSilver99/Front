@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        "kakao-yellow": "#ffe926",
+      },
+    },
     screens: {
       xs: { min: "0px", max: "350px" },
       sm: { min: "350px", max: "720px" },
