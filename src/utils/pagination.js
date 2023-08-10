@@ -1,6 +1,6 @@
 import React from "react";
 
-const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
+const Pagination = ({ postsPerPage, totalPosts, currentPage, paginate }) => {
   const pageNumbers = [];
 
   for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
@@ -14,7 +14,11 @@ const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
           <li key={number} className="mx-2">
             <button
               onClick={() => paginate(number)}
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              className={`${
+                number === currentPage
+                  ? "bg-blue-500 hover:bg-blue-700 text-white border-2 border-black"
+                  : "bg-transparent hover:bg-blue-500 hover:text-white border-2 border-black"
+              } font-bold py-2 px-4 rounded`}
             >
               {number}
             </button>
