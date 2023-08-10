@@ -26,7 +26,6 @@ const SearchBar = (props) => {
           onChange={(e) => setSearchTerm(e.target.value)}
           className="px-4 py-2 h-10 w-full focus:outline-none focus:border-b border-b-2 border-black"
         />
-        {/* AutoFocus 기능 추가할 것 */}
         <button
           onClick={handleSearch}
           className="absolute right-0 top-1 px-4 py-2 text-black rounded-md bg-transparent"
