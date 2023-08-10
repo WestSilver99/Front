@@ -55,14 +55,22 @@ const MountainDetail = () => {
                 {post.location}
               </p>
             </div>
-            <div className="w-1/3 h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4]">
+            <div
+              className={`w-1/3 h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4] ${
+                showTraffic ? "h-auto" : "h-[167px]"
+              } transition-all`}
+            >
               <div className="flex flex-row justify-between items-center">
                 <p className="text-[28px] mb-1 font-bold">교통정보 보기</p>
                 <button onClick={toggleShowTraffic} className="ml-2">
                   <FaAngleDown size={20} />
                 </button>
               </div>
-              <div>
+              <div
+                className={`overflow-hidden ${
+                  showTraffic ? "max-h-[200px]" : "max-h-0"
+                } transition-max-height duration-1000`}
+              >
                 {showTraffic && (
                   <div className="flex flex-col">
                     {post.traffic.map((item, index) => (
