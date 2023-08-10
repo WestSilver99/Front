@@ -39,11 +39,10 @@ const MountainDetail = () => {
           {showCourseImage && (
             <div className="flex flex-wrap justify-center p-2">
               {post.courseImage &&
-                post.courseImage.map((image, index) => (
+                post.courseImage.map((image) => (
                   <img
-                    key={index}
                     src={image}
-                    alt={`Course ${index}`}
+                    alt={`Course`}
                     className="w-[300px] h-[200px] object-cover m-2"
                   />
                 ))}
@@ -56,16 +55,24 @@ const MountainDetail = () => {
                 {post.location}
               </p>
             </div>
-            <div className="w-1/3 justify-between items-start flex h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4]">
-              <p className="text-[28px] mb-1 font-bold">교통정보 보기</p>
-              <button onClick={toggleShowTraffic} className="">
-                <FaAngleDown size={20} />
-              </button>
-              {showTraffic && (
-                <div className="flex flex-col">
-                  {post.traffic && post.traffic.map((item) => <p>{item}</p>)}
-                </div>
-              )}
+            <div className="w-1/3 h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4]">
+              <div className="flex flex-row justify-between items-center">
+                <p className="text-[28px] mb-1 font-bold">교통정보 보기</p>
+                <button onClick={toggleShowTraffic} className="ml-2">
+                  <FaAngleDown size={20} />
+                </button>
+              </div>
+              <div>
+                {showTraffic && (
+                  <div className="flex flex-col">
+                    {post.traffic.map((item, index) => (
+                      <p key={index} className="text-lg font-semibold">
+                        {item}
+                      </p>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>
