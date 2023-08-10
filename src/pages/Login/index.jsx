@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillChatFill } from "react-icons/bs";
-import hikingImg from "../../assets/free-icon-hiking-7757822.png";
+import hikingImg from "@assets/free-icon-hiking-7757822.png";
 import recommendImg from "@assets/free-icon-recommendation-992883.png";
 import locationImg from "@assets/free-icon-map-point-3119614.png";
 import mountainImg from "@assets/free-icon-mountains-753760.png";

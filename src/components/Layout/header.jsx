@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { BsFillPersonFill, BsX } from "react-icons/bs";
+import { BsFillPersonFill } from "react-icons/bs";
+import { BsFillChatFill } from "react-icons/bs";
 import { FaSearch } from "react-icons/fa";
 import SearchBar from "@utils/search";
 
@@ -25,23 +26,19 @@ const Header = () => {
           </span>
         </Link>
         <div className="flex flex-row">
-          <button
-            onClick={handleToggleMenu}
-            className={`mr-2 mt-1 ${
-              showMenu ? "w-40" : "w-10"
-            } bg-transparent border-none outline-none transition-all duration-300`}
-          >
-            {showMenu ? (
-              <div className="h-10 bg-white flex items-center justify-center">
-                <BsX size={20} color="green" />
-                <Link to="/login">
-                  <span className="text-[#96A68C] text-sm ml-2">
-                    카카오 간편 로그인
-                  </span>
+          <button onClick={handleToggleMenu} className="relative mr-3 mt-1">
+            <BsFillPersonFill size={30} color="green" />
+            {showMenu && (
+              <div className="absolute bg-white top-[30px] left-[-50px] z-50">
+                <Link to="/login" className="flex items-center ml-2">
+                  <div className="ml-[-80px] mt-1 w-40 bg-kakao-yellow p-2 rounded-lg">
+                    <span className="text-sm flex items-center">
+                      <BsFillChatFill className="mr-2" />
+                      카카오 간편 로그인
+                    </span>
+                  </div>
                 </Link>
               </div>
-            ) : (
-              <BsFillPersonFill size={30} color="green" />
             )}
           </button>
           <button
