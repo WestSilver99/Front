@@ -1,19 +1,13 @@
 import React, { useState } from "react";
-import dummyData from "@hooks/postdummy";
 import { FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
-const SearchBar = (props) => {
+const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [searchResult, setSearchResult] = useState([]);
   const navigate = useNavigate();
 
   const handleSearch = () => {
-    const filteredData = dummyData.filter((item) =>
-      item.title.toLowerCase().includes(searchTerm.toLowerCase())
-    );
     navigate(`/search/${encodeURIComponent(searchTerm)}`);
-    setSearchResult(filteredData);
   };
 
   return (

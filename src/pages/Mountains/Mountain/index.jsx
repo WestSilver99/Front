@@ -61,7 +61,9 @@ const MountainDetail = () => {
               } transition-all`}
             >
               <div className="flex flex-row justify-between items-center">
-                <p className="text-[28px] mb-1 font-bold">교통정보 보기</p>
+                <p className="text-[28px] mb-1 font-bold sm:text-[10px]">
+                  교통정보 보기
+                </p>
                 <button onClick={toggleShowTraffic} className="ml-2">
                   <FaAngleDown size={20} />
                 </button>
