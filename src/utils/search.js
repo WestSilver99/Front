@@ -12,6 +12,12 @@ const SearchBar = () => {
     navigate(`/search/${encodeURIComponent(searchTerm)}`);
   };
 
+  const handleOnKeyPress = (e) => {
+    if (e.key === "Enter") {
+      handleSearch();
+    }
+  };
+
   useEffect(() => {
     if (searchElement.current) {
       searchElement.current.focus();
@@ -28,6 +34,7 @@ const SearchBar = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
           className="px-4 py-2 h-10 w-full focus:outline-none focus:border-b border-b-2 border-black"
           ref={searchElement}
+          onKeyUp={handleOnKeyPress}
         />
         <button
           onClick={handleSearch}
