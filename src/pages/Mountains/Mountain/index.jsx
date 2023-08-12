@@ -8,6 +8,7 @@ const MountainDetail = () => {
   const post = dummyData.find((item) => item.id === id);
   const [showCourseImage, setShowCourseImage] = useState(false);
   const [showTraffic, setShowTraffic] = useState(false);
+  const [openIndex, setOpenIndex] = useState(-1);
 
   const toggleShowCourseImage = () => {
     setShowCourseImage(!showCourseImage);
@@ -42,8 +43,9 @@ const MountainDetail = () => {
             {showCourseImage && (
               <div className="flex flex-wrap justify-center p-2">
                 {post.courseImage &&
-                  post.courseImage.map((image) => (
+                  post.courseImage.map((image, idx) => (
                     <img
+                      key={idx}
                       src={image}
                       alt={`Course`}
                       className="w-[300px] h-[200px] object-cover m-2"
@@ -97,6 +99,7 @@ const MountainDetail = () => {
               </div>
             </div>
           </div>
+          {/* 등산로 */}
           <div>
             <div>
               <h2 className="text-3xl my-10 pb-3 border-b-2 border-black">
@@ -105,31 +108,46 @@ const MountainDetail = () => {
               <div>
                 {post.course.map((course, index) => (
                   <div key={index} className="my-4">
-                    <h3 className="text-[32px]  text-center text-[#96A68B] font-extrabold my-8">
-                      {course.name}
-                    </h3>
-                    <div className="p-6 xl:w-[850px] bg-[#C2D6B4] ">
-                      {course.description.map((item, idx) => (
-                        <p key={idx} className="mb-2">
-                          {item}
-                        </p>
-                      ))}
+                    <div className="flex justify-between border-b-2 border-[#96A68B]">
+                      <h3 className="text-[18px] text-start text-[#96A68B] font-extrabold my-2 ">
+                        {course.name}
+                      </h3>
+                      <button
+                        className="bg-[#d8f1c7] px-4 rounded-lg text-sm mb-2"
+                        onClick={() =>
+                          setOpenIndex(openIndex === index ? -1 : index)
+                        }
+                      >
+                        정보보기
+                      </button>
                     </div>
-                    <div className="flex flex-row ">
-                      <div className="w-1/4 sm:w-1/2 h-[167px] sm:text-[14px] p-4 my-2 mr-2 bg-[#C2D6B4]">
-                        <p>등산로 길이: {course.length}</p>
-                        <p>상행시간: {course.upTime}</p>
-                        <p>하행시간: {course.downTime}</p>
-                        <p>등산 난이도: {course.level}</p>
-                      </div>
-                      <div className="w-3/4 sm:w-1/2 h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4]">
-                        <div>
-                          <p className="text-[24px] mb-1 font-bold sm:text-[10px]">
-                            등산코스 위치 보기
-                          </p>
+                    {openIndex === index && (
+                      <>
+                        <div className="p-6 xl:w-[850px] bg-[#C2D6B4] mt-2">
+                          {course.description.map((item, idx) => (
+                            <p key={idx} className="mb-2">
+                              {item}
+                            </p>
+                          ))}
                         </div>
-                      </div>
-                    </div>
+                        <div className="flex flex-row">
+                          <div className="w-1/4 sm:w-1/2 h-[167px] sm:text-[14px] p-4 my-2 mr-2 bg-[#C2D6B4]">
+                            <p>등산로 길이: {course.length}</p>
+                            <p>상행시간: {course.upTime}</p>
+                            <p>하행시간: {course.downTime}</p>
+                            <p>등산 난이도: {course.level}</p>
+                          </div>
+                          <div className="w-3/4 sm:w-1/2 h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4]">
+                            <div>
+                              <p className="text-[24px] mb-1 font-bold sm:text-[10px]">
+                                등산코스 위치 보기
+                              </p>
+                              {/* Additional content for the second box */}
+                            </div>
+                          </div>
+                        </div>
+                      </>
+                    )}
                   </div>
                 ))}
               </div>
