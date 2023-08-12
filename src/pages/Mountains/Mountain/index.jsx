@@ -58,34 +58,38 @@ const MountainDetail = () => {
                 <p className="text-start text-[28px] mb-1 font-bold">
                   산 소재지
                 </p>
-                <p className="text-start bg-[#70ad44] text-[16px] p-2">
+                <p className="text-start bg-[#70ad44] text-[16px] sm:text-[12px] p-2">
                   {post.location}
                 </p>
               </div>
+
               <div
                 className={`w-1/3 h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4] ${
                   showTraffic ? "h-auto" : "h-[167px]"
-                } transition-all`}
+                } transition-all relative`}
               >
                 <div className="flex flex-row justify-between items-center">
                   <p className="text-[28px] mb-1 font-bold sm:text-[10px]">
                     교통정보 보기
                   </p>
-                  <button onClick={toggleShowTraffic} className="ml-2">
+                  <button onClick={toggleShowTraffic} className="ml-2 ">
                     <FaAngleDown size={20} />
                   </button>
                 </div>
                 <div
-                  className={`overflow-hidden ${
-                    showTraffic ? "max-h-[200px]" : "max-h-0"
-                  } transition-max-height duration-1000`}
+                  className={`overflow-hidden absolute left-0 w-full bg-[#C2D6B4] ${
+                    showTraffic ? "max-h-[400px]" : "max-h-0"
+                  }   duration-1000`}
                 >
                   {showTraffic && (
-                    <div className="flex flex-col">
+                    <div className="xl:w-[250px] flex flex-col">
                       {post.traffic.map((item, index) => (
-                        <p key={index} className="text-lg font-semibold">
+                        <li
+                          key={index}
+                          className="text-sm font-semibold sm:mt-3 sm:text-[8px]"
+                        >
                           {item}
-                        </p>
+                        </li>
                       ))}
                     </div>
                   )}
@@ -112,13 +116,13 @@ const MountainDetail = () => {
                       ))}
                     </div>
                     <div className="flex flex-row ">
-                      <div className="w-1/4 h-[167px]  p-4 my-2 mr-2 bg-[#C2D6B4]">
+                      <div className="w-1/4 sm:w-1/2 h-[167px] sm:text-[14px] p-4 my-2 mr-2 bg-[#C2D6B4]">
                         <p>등산로 길이: {course.length}</p>
                         <p>상행시간: {course.upTime}</p>
                         <p>하행시간: {course.downTime}</p>
                         <p>등산 난이도: {course.level}</p>
                       </div>
-                      <div className="w-3/4 h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4]">
+                      <div className="w-3/4 sm:w-1/2 h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4]">
                         <div>
                           <p className="text-[24px] mb-1 font-bold sm:text-[10px]">
                             등산코스 위치 보기
