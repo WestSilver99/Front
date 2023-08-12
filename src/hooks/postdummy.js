@@ -10,7 +10,11 @@ const useDummyPostData = [
     courseImage: [Mountain],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -23,6 +27,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -35,6 +42,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -47,6 +57,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -58,7 +71,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -71,6 +88,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -83,6 +103,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -95,6 +118,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -106,7 +132,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -119,6 +149,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -131,6 +164,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -143,6 +179,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -154,7 +193,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -167,6 +210,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -179,6 +225,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -191,6 +240,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -202,7 +254,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -215,6 +271,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -227,6 +286,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -239,6 +301,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -250,7 +315,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -263,6 +332,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -275,6 +347,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -287,6 +362,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -298,7 +376,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -311,6 +393,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -323,6 +408,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -335,6 +423,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -346,7 +437,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -359,6 +454,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -371,6 +469,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -383,6 +484,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -394,7 +498,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -407,6 +515,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -419,6 +530,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -431,6 +545,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -442,7 +559,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -455,6 +576,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -467,6 +591,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -479,6 +606,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -490,7 +620,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -503,6 +637,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -515,6 +652,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -527,6 +667,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -538,7 +681,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -551,6 +698,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -563,6 +713,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -575,6 +728,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -586,7 +742,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -599,6 +759,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -611,6 +774,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -623,6 +789,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -634,7 +803,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -647,6 +820,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -659,6 +835,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -671,6 +850,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -682,7 +864,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -695,6 +881,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -707,6 +896,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -719,6 +911,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -730,7 +925,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -743,6 +942,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -755,6 +957,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -767,6 +972,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -778,7 +986,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -791,6 +1003,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -803,6 +1018,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -815,6 +1033,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -826,7 +1047,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -839,6 +1064,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -851,6 +1079,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -863,6 +1094,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -874,7 +1108,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -887,6 +1125,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -899,6 +1140,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -911,6 +1155,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -922,7 +1169,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -935,6 +1186,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -947,6 +1201,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -959,6 +1216,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -970,7 +1230,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -983,6 +1247,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -995,6 +1262,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1007,6 +1277,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1018,7 +1291,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1031,6 +1308,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1043,6 +1323,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1055,6 +1338,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1066,7 +1352,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1079,6 +1369,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1091,6 +1384,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1103,6 +1399,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1114,7 +1413,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1127,6 +1430,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1139,6 +1445,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1151,6 +1460,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1162,7 +1474,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1175,6 +1491,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1187,6 +1506,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1199,6 +1521,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1210,7 +1535,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1223,6 +1552,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1235,6 +1567,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1247,6 +1582,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1258,7 +1596,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1271,6 +1613,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1283,6 +1628,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1295,6 +1643,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1306,7 +1657,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1319,6 +1674,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1331,6 +1689,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1343,6 +1704,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1354,7 +1718,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1367,6 +1735,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1379,6 +1750,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1391,6 +1765,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1402,7 +1779,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1415,6 +1796,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1427,6 +1811,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1439,6 +1826,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1450,7 +1840,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1463,6 +1857,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1475,6 +1872,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1487,6 +1887,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1498,7 +1901,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1511,6 +1918,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1523,6 +1933,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1535,6 +1948,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1546,7 +1962,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1559,6 +1979,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1571,6 +1994,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1583,6 +2009,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1594,7 +2023,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1607,6 +2040,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1619,6 +2055,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1631,6 +2070,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1642,7 +2084,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1655,6 +2101,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1667,6 +2116,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1679,6 +2131,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1690,7 +2145,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1703,6 +2162,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1715,6 +2177,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1727,6 +2192,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1738,7 +2206,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1751,6 +2223,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1763,6 +2238,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1775,6 +2253,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1786,7 +2267,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1799,6 +2284,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1811,6 +2299,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1823,6 +2314,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
@@ -1834,7 +2328,11 @@ const useDummyPostData = [
     courseImage: [Mountain, Banner],
     location:
       "서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시",
-    traffic: ["1. 버스", "2. 지하철"],
+    traffic: [
+      "우이동은 4호선 수유역에서 내려 101번, 1217번, 북악터널은 길음역에서 7211번을 타고 국민대에서 내린다.",
+      "구기동은 3호선과 6호선 불광역에서 7022번과 7211번, 북한산성은 구파발역에서 704번을 탄다.",
+      "수유역→우이동 : 5분 간격 운행 불광역→구기터널 : 5분 간격 운행구파발→산성매표소 : 5분 간격 운행 ",
+    ],
     course: [
       {
         name: "서대문구홍은동 구간",
@@ -1847,6 +2345,9 @@ const useDummyPostData = [
         upTime: "5 시간",
         downTime: "4 시간",
         level: "쉬움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "동대문구동대문동 구간",
@@ -1859,6 +2360,9 @@ const useDummyPostData = [
         upTime: "1 시간",
         downTime: "6 시간",
         level: "중간",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
       {
         name: "중구중동 구간",
@@ -1871,6 +2375,9 @@ const useDummyPostData = [
         upTime: "15 시간",
         downTime: "24 시간",
         level: "어려움",
+        latitued: 37.402056,
+        longitude: 127.108212,
+        locationName: "카카오판교오피스",
       },
     ],
   },
