@@ -2,6 +2,8 @@ import { useParams } from "react-router";
 import dummyData from "@hooks/postdummy";
 import { FaAngleDown } from "react-icons/fa";
 import { useState } from "react";
+import KakaoMap from "@utils/kakaomap";
+import { Link } from "react-router-dom";
 
 const MountainDetail = () => {
   const { id } = useParams();
@@ -139,10 +141,14 @@ const MountainDetail = () => {
                           </div>
                           <div className="w-3/4 sm:w-1/2 h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4]">
                             <div>
-                              <p className="text-[24px] mb-1 font-bold sm:text-[10px]">
-                                등산코스 위치 보기
-                              </p>
-                              {/* Additional content for the second box */}
+                              <a
+                                href={`https://map.kakao.com/link/to/${course.locationName},${course.latitued},${course.longitude}`}
+                              >
+                                <button className="text-[24px] mb-1 font-bold sm:text-[10px]">
+                                  등산코스 위치 보기
+                                </button>
+                              </a>
+                              {/* <KakaoMap /> */}
                             </div>
                           </div>
                         </div>
