@@ -1,20 +1,28 @@
-import React, { useState } from "react";
-import dummyData from "@hooks/postdummy";
+import React, { useEffect, useRef, useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
-const SearchBar = (props) => {
+const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [searchResult, setSearchResult] = useState([]);
+  const searchElement = useRef(null);
+
   const navigate = useNavigate();
 
   const handleSearch = () => {
-    const filteredData = dummyData.filter((item) =>
-      item.title.toLowerCase().includes(searchTerm.toLowerCase())
-    );
     navigate(`/search/${encodeURIComponent(searchTerm)}`);
-    setSearchResult(filteredData);
   };
+
+  const handleOnKeyPress = (e) => {
+    if (e.key === "Enter") {
+      handleSearch();
+    }
+  };
+
+  useEffect(() => {
+    if (searchElement.current) {
+      searchElement.current.focus();
+    }
+  });
 
   return (
     <div className="flex justify-center items-center">
@@ -25,6 +33,8 @@ const SearchBar = (props) => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="px-4 py-2 h-10 w-full focus:outline-none focus:border-b border-b-2 border-black"
+          ref={searchElement}
+          onKeyUp={handleOnKeyPress}
         />
         <button
           onClick={handleSearch}
