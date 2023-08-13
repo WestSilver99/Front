@@ -17,13 +17,13 @@ const SearchBar = (props) => {
   };
 
   return (
-    <div className="relative">
+    <div className={`relative sm:${props.smHidden || ""}`}>
       <input
         type="text"
         placeholder=""
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        className="px-4  py-2 border rounded-md"
+        className={`px-4 py-2 border rounded-md w-full`}
       />
       {/* AutoFocus 기능 추가할 것 */}
       <button
