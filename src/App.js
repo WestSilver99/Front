@@ -20,7 +20,7 @@ function App() {
           <Route path="/mountains" element={<Mountains />} />
           <Route path="/mountains/:id" element={<MountainDetail />} />
           <Route path="/search/:searchTerm" element={<Search />} />
-          <Route path="/oauth/kakao/callback" element={<Auth />} />
+          <Route path="/login/oauth2/code/kakao" element={<Auth />} />
         </Routes>
       </Layout>
     </BrowserRouter>
