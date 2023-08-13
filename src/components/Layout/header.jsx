@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { BsFillPersonFill, BsX } from "react-icons/bs";
-import SearchBar from "@utils/search";
-import { useNavigate } from "react-router-dom";
+import { BsFillPersonFill } from "react-icons/bs";
 import { BsFillChatFill } from "react-icons/bs";
+import { FaSearch } from "react-icons/fa";
+import SearchBar from "@utils/search";
 
 const Header = () => {
-  const navigate = useNavigate();
   const [showMenu, setShowMenu] = useState(false);
+  const [showSearchBar, setShowSearchBar] = useState(false);
 
   const handleToggleMenu = () => {
     setShowMenu(!showMenu);
+  };
+
+  const handleToggleSearch = () => {
+    setShowSearchBar(!showSearchBar);
   };
 
   return (
@@ -22,10 +26,10 @@ const Header = () => {
           </span>
         </Link>
         <div className="flex flex-row">
-          <button onClick={handleToggleMenu} className="relative">
+          <button onClick={handleToggleMenu} className="relative mr-3 mt-1">
             <BsFillPersonFill size={30} color="green" />
             {showMenu && (
-              <div className="absolute bg-white top-10 left-0 z-50">
+              <div className="absolute bg-white top-[30px] left-[-50px] z-50">
                 <Link to="/login" className="flex items-center ml-2">
                   <div className="ml-[-80px] mt-1 w-40 bg-kakao-yellow p-2 rounded-lg">
                     <span className="text-sm flex items-center">
@@ -37,10 +41,15 @@ const Header = () => {
               </div>
             )}
           </button>
-
-          <SearchBar smHidden="hidden" />
+          <button
+            onClick={handleToggleSearch}
+            className="mr-2 mt-1 bg-transparent border-none outline-none transition-all duration-300"
+          >
+            <FaSearch size={24} color="green" />
+          </button>
         </div>
       </div>
+      {showSearchBar && <SearchBar />}
     </nav>
   );
 };

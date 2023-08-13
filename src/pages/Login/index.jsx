@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillChatFill } from "react-icons/bs";
-import hikingImg from "../../assets/free-icon-hiking-7757822.png";
-import recommendImg from "../../assets/free-icon-recommendation-992883.png";
-import locationImg from "../../assets/free-icon-map-point-3119614.png";
-import mountainImg from "../../assets/free-icon-mountains-753760.png";
+import hikingImg from "@assets/free-icon-hiking-7757822.png";
+import recommendImg from "@assets/free-icon-recommendation-992883.png";
+import locationImg from "@assets/free-icon-map-point-3119614.png";
+import mountainImg from "@assets/free-icon-mountains-753760.png";
 
 const Login = () => {
   const REST_API_KEY = process.env.REACT_APP_REST_API_KEY;
   //const REDIRECT_URI = "https://benevolent-croquembouche-fd718d.netlify.app/oauth/kakao/callback";
-  const REDIRECT_URI = "http://localhost:3000/oauth/kakao/callback";
+  const REDIRECT_URI = "http://localhost:3000/login/oauth2/code/kakao";
 
   const KAKAO_AUTH_URL = `https://kauth.kakao.com/oauth/authorize?client_id=${REST_API_KEY}&redirect_uri=${REDIRECT_URI}&response_type=code`;
 
