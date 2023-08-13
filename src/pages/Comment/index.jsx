@@ -42,7 +42,7 @@ const WritePostWithDate = () => {
           />
         )}
         {isWriting && (
-          <textarea
+          <input
             rows="8"
             className="w-full h-48 p-2 border rounded"
             value={newPost}
