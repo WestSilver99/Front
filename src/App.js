@@ -8,11 +8,8 @@ import Mountains from "@pages/Mountains";
 import MountainDetail from "@pages/Mountains/Mountain";
 import Search from "@pages/Search";
 import Auth from "@pages/Login/Auth";
-<<<<<<< HEAD
 import WritePostWithDate from "@pages/Comment/index";
-=======
 import Success from "@pages/Login/Success";
->>>>>>> login
 
 function App() {
   return (
@@ -25,13 +22,9 @@ function App() {
           <Route path="/mountains" element={<Mountains />} />
           <Route path="/mountains/:id" element={<MountainDetail />} />
           <Route path="/search/:searchTerm" element={<Search />} />
-<<<<<<< HEAD
-          <Route path="/oauth/kakao/callback" element={<Auth />} />
           <Route path="/comment" element={<WritePostWithDate />} />
-=======
           <Route path="/login/oauth2/code/kakao" element={<Auth />} />
           <Route path="/success" element={<Success />} />
->>>>>>> login
         </Routes>
       </Layout>
     </BrowserRouter>
