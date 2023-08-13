@@ -2,8 +2,7 @@ import { useParams } from "react-router";
 import dummyData from "@hooks/postdummy";
 import { FaAngleDown } from "react-icons/fa";
 import { useState } from "react";
-import KakaoMap from "@utils/kakaomap";
-import { Link } from "react-router-dom";
+import kakaoMapImg from "@assets/kakaoMap.png";
 
 const MountainDetail = () => {
   const { id } = useParams();
@@ -59,7 +58,7 @@ const MountainDetail = () => {
           <div>
             <div className="flex flex-row">
               <div className="w-2/3 h-[167px] p-4 my-2 mr-2 bg-[#C2D6B4] ">
-                <p className="text-start text-[28px] mb-1 font-bold">
+                <p className="text-start text-[28px] mb-5 font-bold">
                   산 소재지
                 </p>
                 <p className="text-start bg-[#70ad44] text-[16px] sm:text-[12px] p-2">
@@ -90,7 +89,7 @@ const MountainDetail = () => {
                       {post.traffic.map((item, index) => (
                         <li
                           key={index}
-                          className="text-sm font-semibold sm:mt-3 sm:text-[8px]"
+                          className="text-sm font-semibold mx-2 sm:mt-3 sm:text-[8px]"
                         >
                           {item}
                         </li>
@@ -141,12 +140,19 @@ const MountainDetail = () => {
                           </div>
                           <div className="w-3/4 sm:w-1/2 h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4]">
                             <div>
+                              <p className="text-[24px] mb-1 font-bold sm:text-[14px]">
+                                등산코스 위치 보기
+                              </p>
                               <a
+                                target="_blank"
                                 href={`https://map.kakao.com/link/to/${course.locationName},${course.latitued},${course.longitude}`}
+                                rel="noreferrer"
                               >
-                                <button className="text-[24px] mb-1 font-bold sm:text-[10px]">
-                                  등산코스 위치 보기
-                                </button>
+                                <img
+                                  src={kakaoMapImg}
+                                  alt="kakao"
+                                  className="w-[350px] h-[87px] sm:mt-8 sm:h-[50px]"
+                                />
                               </a>
                               {/* <KakaoMap /> */}
                             </div>
