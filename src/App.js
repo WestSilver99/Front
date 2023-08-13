@@ -8,6 +8,7 @@ import Mountains from "@pages/Mountains";
 import MountainDetail from "@pages/Mountains/Mountain";
 import Search from "@pages/Search";
 import Auth from "@pages/Login/Auth";
+import Success from "@pages/Login/Success";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/mountains/:id" element={<MountainDetail />} />
           <Route path="/search/:searchTerm" element={<Search />} />
           <Route path="/login/oauth2/code/kakao" element={<Auth />} />
+          <Route path="/success" element={<Success />} />
         </Routes>
       </Layout>
     </BrowserRouter>
