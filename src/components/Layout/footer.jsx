@@ -1,7 +1,6 @@
 import React from "react";
 import { RxNotionLogo } from "react-icons/rx";
 import { BiLogoGmail } from "react-icons/bi";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   let currentYear = new Date().getFullYear();
@@ -9,7 +8,7 @@ const Footer = () => {
     <footer className="bg-white text-sm border-t-[1px] border-[#C2C2C2]">
       <div className="w-full max-w-screen-xl mx-auto p-5 ">
         <div>
-          <span className="block text-center text-black mb-10">
+          <span className="block text-center font-extrabold text-black mb-10 text-base">
             © {currentYear}{" "}
             <a
               href="https://leafy-tulumba-aa5ae3.netlify.app/"

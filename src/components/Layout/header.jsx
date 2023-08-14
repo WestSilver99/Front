@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { BsFillPersonFill } from "react-icons/bs";
 import { BsFillChatFill } from "react-icons/bs";
 import { FaSearch } from "react-icons/fa";
@@ -9,6 +9,8 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [showSearchBar, setShowSearchBar] = useState(false);
 
+  const location = useLocation();
+
   const handleToggleMenu = () => {
     setShowMenu(!showMenu);
   };
@@ -16,6 +18,10 @@ const Header = () => {
   const handleToggleSearch = () => {
     setShowSearchBar(!showSearchBar);
   };
+
+  useEffect(() => {
+    setShowSearchBar(false);
+  }, [location]);
 
   return (
     <nav className="w-full xl:py-6 xl:px-20 md:px-10 ">

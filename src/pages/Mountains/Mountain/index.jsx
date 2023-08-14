@@ -111,7 +111,7 @@ const MountainDetail = () => {
               <div>
                 {post.course.map((course, index) => (
                   <div key={index} className="my-4">
-                    <div className="flex justify-between border-b-2 border-[#96A68B]">
+                    <div className="flex justify-between border-b-[1px] border-[#96A68B]">
                       <h3 className="text-[24px] sm:text-[22px] text-start text-[#6E7B65] font-extrabold my-2 ">
                         {course.name}
                       </h3>
