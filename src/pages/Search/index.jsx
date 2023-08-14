@@ -11,7 +11,9 @@ const Search = () => {
 
   return (
     <div className="my-20 lg:w-2/3 lg:mx-auto xl:w-2/3 xl:mx-auto">
-      <h2 className="text-4xl font-bold text-center">검색 결과</h2>
+      <h2 className="text-3xl sm:text-2xl font-bold text-center">
+        "{searchTerm}"에 대한 검색 결과입니다.
+      </h2>
       {filteredData.length > 0 ? (
         <div className="my-10 grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 p-[10px] m-[5px]">
           {filteredData.map((post) => (
