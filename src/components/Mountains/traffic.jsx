@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
 
-const TrafficMountains = ({ location, traffic }) => {
+const TrafficMountains = ({ mntninfopoflc, pbtrninfodscrt }) => {
   const [showTraffic, setShowTraffic] = useState(false);
 
   const toggleShowTraffic = () => {
@@ -15,7 +15,7 @@ const TrafficMountains = ({ location, traffic }) => {
             산 소재지
           </p>
           <p className="text-start w-full  bg-[#C2D6B4] text-[16px] sm:text-[12px] p-2">
-            {location}
+            {mntninfopoflc}
           </p>
         </div>
 
@@ -39,7 +39,7 @@ const TrafficMountains = ({ location, traffic }) => {
           >
             {showTraffic && (
               <div className="xl:w-[250px] flex flex-col">
-                {traffic.map((item, index) => (
+                {pbtrninfodscrt.map((item, index) => (
                   <li
                     key={index}
                     className="text-sm font-semibold mx-2 sm:mt-3 sm:text-[8px]"

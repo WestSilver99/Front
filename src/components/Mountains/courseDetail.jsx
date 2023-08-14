@@ -14,7 +14,7 @@ const CourseDetails = ({ course }) => {
             <div key={index} className="my-4">
               <div className="flex justify-between border-b-[1px] border-[#96A68B]">
                 <h3 className="text-[24px] sm:text-[22px] text-start text-[#6E7B65] font-extrabold my-2 ">
-                  {course.name}
+                  {course.pmntn_nm}
                 </h3>
                 <button
                   className="bg-[#EAF3EC] px-4 rounded-lg text-[18px] sm:text-[12px] sm:mb-1 sm: mb-2 text-[#8F9D86]"
@@ -34,10 +34,10 @@ const CourseDetails = ({ course }) => {
                   </div>
                   <div className="flex flex-row">
                     <div className="w-1/4 sm:w-1/2 h-[167px] sm:text-[14px] p-4 my-2 mr-2 bg-[#C2D6B4]">
-                      <p>등산로 길이: {course.length}</p>
-                      <p>상행시간: {course.upTime}</p>
-                      <p>하행시간: {course.downTime}</p>
-                      <p>등산 난이도: {course.level}</p>
+                      <p>등산로 길이: {course.pmntn_lt}</p>
+                      <p>상행시간: {course.pmntn_uppl}</p>
+                      <p>하행시간: {course.pmntn_godn}</p>
+                      <p>등산 난이도: {course.pmntn_dffl}</p>
                     </div>
                     <div className="w-3/4 sm:w-1/2 h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4]">
                       <div>

@@ -13,9 +13,12 @@ const MountainDetail = () => {
     <div className="lg:w-2/3 lg:mx-auto xl:w-2/3 xl:mx-auto">
       <div className="flex flex-col items-center justify-center p-4 mb-10">
         <div>
-          <MountainImages title={post.title} image={post.image} />
+          <MountainImages mntnnm={post.mntnnm} image={post.image} />
           <CourseImages courseImage={post.courseImage} />
-          <TrafficMountains location={post.location} traffic={post.traffic} />
+          <TrafficMountains
+            mntninfopoflc={post.mntninfopoflc}
+            pbtrninfodscrt={post.pbtrninfodscrt}
+          />
           <CourseDetails course={post.course} />
         </div>
       </div>
