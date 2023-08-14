@@ -27,19 +27,9 @@ const Header = () => {
         </Link>
         <div className="flex flex-row">
           <button onClick={handleToggleMenu} className="relative mr-3 mt-1">
-            <BsFillPersonFill size={30} color="green" />
-            {showMenu && (
-              <div className="absolute bg-white top-[30px] left-[-50px] z-50">
-                <Link to="/login" className="flex items-center ml-2">
-                  <div className="ml-[-80px] mt-1 w-40 bg-kakao-yellow p-2 rounded-lg">
-                    <span className="text-sm flex items-center">
-                      <BsFillChatFill className="mr-2" />
-                      카카오 간편 로그인
-                    </span>
-                  </div>
-                </Link>
-              </div>
-            )}
+            <Link to="/login" className="flex items-center ml-2">
+              <BsFillPersonFill size={30} color="green" />
+            </Link>
           </button>
           <button
             onClick={handleToggleSearch}
