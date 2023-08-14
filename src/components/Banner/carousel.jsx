@@ -29,7 +29,7 @@ const Banner = () => {
         {banners.map((banner, index) => (
           <div key={index}>
             <img
-              className="w-full"
+              className="w-full sm:h-[250px]"
               src={banner.image}
               alt={`Banner ${index + 1}`}
             />
