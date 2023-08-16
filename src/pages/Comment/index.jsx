@@ -2,12 +2,38 @@ import React, { useState } from "react";
 import { BsFillPencilFill } from "react-icons/bs";
 import { FaTimes } from "react-icons/fa";
 import CommentPost from "./commentPost";
+import axios from "axios";
 
 const WritePostWithDate = ({ postId }) => {
   const [showModal, setShowModal] = useState(false);
   const [username, setUsername] = useState("장광진");
   const [content, setContent] = useState("");
 
+  const handleRegister = () => {
+    // Create a new reply object with content and username
+    const newReply = {
+      content: content,
+      username: username,
+    };
+
+    // Send the new reply data to the server
+    axios
+      .post(`http://localhost:8080/reply/${postId}`, newReply)
+      .then((response) => {
+        // Handle success if needed
+        console.log("Reply posted successfully", response);
+        // Clear the content input field
+        setContent("");
+        // Close the modal
+        setShowModal(false);
+      })
+      .catch((error) => {
+        // Handle error if needed
+        console.error("Error posting reply:", error);
+      });
+  };
+
+  console.log(content, username);
   return (
     <div>
       <div>
@@ -47,13 +73,13 @@ const WritePostWithDate = ({ postId }) => {
                 onChange={(e) => setContent(e.target.value)}
                 className="border p-2 mb-2 w-[800px] h-[400px]"
               />
-              {/* <button
+              <button
                 type="button"
                 onClick={handleRegister}
                 className="bg-blue-500 text-white px-4 py-2 rounded"
               >
                 Register
-              </button> */}
+              </button>
             </form>
           </div>
         </div>
