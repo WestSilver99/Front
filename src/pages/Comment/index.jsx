@@ -1,43 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { BsFillPencilFill } from "react-icons/bs";
 import { FaTimes } from "react-icons/fa";
-import axios from "axios";
+import CommentPost from "./commentPost";
 
-const WritePostWithDate = () => {
+const WritePostWithDate = ({ postId }) => {
   const [showModal, setShowModal] = useState(false);
   const [username, setUsername] = useState("장광진");
   const [content, setContent] = useState("");
-  const [boardData, setBoardData] = useState([]);
-
-  useEffect(() => {
-    fetchBoardData();
-  }, []);
-
-  const fetchBoardData = async () => {
-    try {
-      const response = await axios.get("http://localhost:8080/board/{id}");
-      setBoardData(response.data);
-    } catch (error) {
-      console.error("Error fetching board data:", error);
-    }
-  };
-
-  const handleRegister = async () => {
-    try {
-      const response = await axios.post(`http://localhost:8080/reply/{id}`, {
-        username,
-        content,
-      });
-
-      // const newReply = response.data;
-
-      setShowModal(false);
-
-      fetchBoardData();
-    } catch (error) {
-      console.error("Error:", error);
-    }
-  };
 
   return (
     <div>
@@ -52,9 +21,7 @@ const WritePostWithDate = () => {
           >
             <BsFillPencilFill color="green" size={24} />
           </button>
-          <div className="absolute inset-x-0 bottom-6 h-px bg-[#829476] transform -translate-y-1/2">
-            {/* Horizontal line */}
-          </div>
+          <div className="absolute inset-x-0 bottom-6 h-px bg-[#829476] transform -translate-y-1/2"></div>
         </div>
       </div>
 
@@ -80,53 +47,18 @@ const WritePostWithDate = () => {
                 onChange={(e) => setContent(e.target.value)}
                 className="border p-2 mb-2 w-[800px] h-[400px]"
               />
-              <button
+              {/* <button
                 type="button"
                 onClick={handleRegister}
                 className="bg-blue-500 text-white px-4 py-2 rounded"
               >
                 Register
-              </button>
+              </button> */}
             </form>
           </div>
         </div>
       )}
-
-      {/* Display boardData below the button */}
-      <div className="mt-4 w-[850px]">
-        {boardData.map((item, index) => (
-          <div key={index}>
-            <p className="mb-3 font-bold">{item.content}</p>
-            <p className="text-right text-gray-400 ">{item.username}</p>
-            <hr className="bg-[#829476] my-10" />
-          </div>
-        ))}
-        {/* 이게 위에 boardData 예시본 */}
-        <div className="w-[850px]">
-          <div>
-            <p className="mb-3 font-bold">
-              제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발
-            </p>
-            <p className="text-right text-gray-400">장광진</p>
-            <hr className="bg-[#829476] my-10" />
-          </div>
-          <div>
-            <p className="mb-3 font-bold">
-              제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발
-            </p>
-            <p className="text-right text-gray-400 mb-2">장광진</p>
-            <hr className="bg-[#829476] my-10" />
-          </div>
-          <div>
-            <p className="mb-3 font-bold">
-              제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발제발
-            </p>
-            <p className="text-right text-gray-400 mb-2">장광진</p>
-            <hr className="bg-[#829476] my-10" />
-          </div>
-        </div>
-        {/* 이게 위에 boardData 예시본 */}
-      </div>
+      <CommentPost postId={postId} />
     </div>
   );
 };

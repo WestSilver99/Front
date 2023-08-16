@@ -21,7 +21,7 @@ const MountainDetail = () => {
             pbtrninfodscrt={post.pbtrninfodscrt}
           />
           <CourseDetails course={post.course} />
-          <WritePostWithDate />
+          <WritePostWithDate postId={id} />
         </div>
       </div>
     </div>
