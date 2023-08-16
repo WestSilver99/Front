@@ -19,7 +19,7 @@ const CommentPost = ({ postId }) => {
       {/* {boardData.replyList.map((reply, index) => (
         <div key={index}>
           <p className="mb-3 font-bold">{reply.content}</p>
-          <p className="text-right text-gray-400 ">{reply.username}</p>
+          <p className="text-right text-gray-400 ">{reply.regDate}</p>
           <hr className="bg-[#829476] my-10" />
         </div>
       ))} */}
