@@ -51,8 +51,8 @@ const CourseDetails = ({ course }) => {
                             href={`https://map.kakao.com/link/to/${course.locationName},${course.latitued},${course.longitude}`}
                             rel="noreferrer"
                           >
-                            <div className="flex items-center justify-center w-48 h-20 rounded-xl bg-kakao-yellow text-2xl">
-                              <FaLocationDot className="mr-2" />
+                            <div className="flex items-center justify-center w-48 sm:w-[130px] sm:h-[60px] sm:mt-5 h-20 rounded-xl bg-kakao-yellow text-2xl sm:text-xl">
+                              <FaLocationDot className="mr-2 sm:text-base sm:mr-1" />
                               <span className="text-center font-mono uppercase font-extrabold">
                                 kakao map
                               </span>

@@ -1,7 +1,10 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import BannerImg from "@assets/banner.png";
+import BannerImg1 from "@assets/banner1.png";
+import BannerImg2 from "@assets/banner2.jpg";
+import BannerImg3 from "@assets/banner3.jpg";
+import BannerImg4 from "@assets/banner4.jpg";
 
 const Banner = () => {
   const settings = {
@@ -16,11 +19,10 @@ const Banner = () => {
     centerSlidePercentage: true,
   };
   const banners = [
-    { image: BannerImg },
-    { image: BannerImg },
-    { image: BannerImg },
-    { image: BannerImg },
-    { image: BannerImg },
+    { image: BannerImg1 },
+    { image: BannerImg2 },
+    { image: BannerImg3 },
+    { image: BannerImg4 },
   ];
 
   return (
@@ -29,7 +31,7 @@ const Banner = () => {
         {banners.map((banner, index) => (
           <div key={index}>
             <img
-              className="w-full sm:h-[250px]"
+              className="w-full xl:h-[650px] lg:h-[650px] md:h-[450px] sm:h-[250px]"
               src={banner.image}
               alt={`Banner ${index + 1}`}
             />

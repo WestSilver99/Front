@@ -1,5 +1,5 @@
 import Mountain from "@assets/item.png";
-import Banner from "@assets/banner.png";
+import Banner from "@assets/banner1.png";
 
 const useDummyPostData = [
   {

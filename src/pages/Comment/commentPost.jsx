@@ -15,7 +15,7 @@ const CommentPost = ({ postId }) => {
       });
   }, []);
   return (
-    <div className="mt-4 w-[850px]">
+    <div className="mt-4 xl:w-[850px]">
       {/* {boardData.replyList.map((reply, index) => (
         <div key={index}>
           <p className="mb-3 font-bold">{reply.content}</p>

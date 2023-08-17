@@ -33,17 +33,16 @@ const WritePostWithDate = ({ postId }) => {
       });
   };
 
-  console.log(content, username);
   return (
     <div>
       <div>
-        <div className="flex relative justify-center my-10">
+        <div className="flex relative justify-center my-10 sm:mt-14">
           <p className="text-white inline-block ml-2 z-20 text-[28px] sm:text-xl bg-[#829476] p-1 rounded-2xl">
             이용 후기
           </p>
           <button
             onClick={() => setShowModal(true)}
-            className="absolute -top-1 right-0"
+            className="absolute -top-3 sm:-top-5 right-0"
           >
             <BsFillPencilFill color="green" size={24} />
           </button>
@@ -53,7 +52,7 @@ const WritePostWithDate = ({ postId }) => {
 
       {showModal && (
         <div className="fixed inset-0 flex items-center justify-center z-40 bg-gray-500 bg-opacity-50">
-          <div className="bg-white p-4 rounded shadow-lg">
+          <div className="bg-white  p-4 rounded shadow-lg">
             <div className="flex justify-between flex-row">
               <h2>후기 작성</h2>
               <button onClick={() => setShowModal(false)}>
@@ -71,14 +70,14 @@ const WritePostWithDate = ({ postId }) => {
               <input
                 value={content}
                 onChange={(e) => setContent(e.target.value)}
-                className="border p-2 mb-2 w-[800px] h-[400px]"
+                className="border p-2 mb-2 xl:w-[800px] lg:w-[800px] h-[400px] sm:h-[250px] sm:w-[350px] md:w-[600px]"
               />
               <button
                 type="button"
                 onClick={handleRegister}
-                className="bg-blue-500 text-white px-4 py-2 rounded"
+                className="bg-[#829476] text-white px-4 py-2 rounded"
               >
-                Register
+                제출
               </button>
             </form>
           </div>
