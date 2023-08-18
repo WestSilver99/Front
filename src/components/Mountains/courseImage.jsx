@@ -8,8 +8,8 @@ const CourseImages = ({ courseImage }) => {
   };
   return (
     <div>
-      <div className="justify-between flex items-center bg-[#EAF3EC] h-[60px] ">
-        <p className="mx-2 text-[28px] sm:text-xl font-bold">등산로 사진보기</p>
+      <div className="justify-between flex items-center bg-[#EAF3EC] h-[60px] rounded-[5px]">
+        <p className="mx-2 text-[24px] sm:text-xl font-bold">등산로 사진보기</p>
         <button onClick={toggleShowCourseImage} className="mx-2">
           <FaAngleDown size={20} />
         </button>

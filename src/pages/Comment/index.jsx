@@ -18,7 +18,7 @@ const WritePostWithDate = ({ postId }) => {
 
     // Send the new reply data to the server
     axios
-      .post(`http://localhost:8080/reply/${postId}`, newReply)
+      .post(`http://43.202.134.74:8080/reply/${postId}`, newReply)
       .then((response) => {
         // Handle success if needed
         console.log("Reply posted successfully", response);
@@ -37,7 +37,7 @@ const WritePostWithDate = ({ postId }) => {
     <div>
       <div>
         <div className="flex relative justify-center my-10 sm:mt-14">
-          <p className="text-white inline-block ml-2 z-20 text-[28px] sm:text-xl bg-[#829476] p-1 rounded-2xl">
+          <p className="text-white inline-block ml-2 z-20 text-[24px] sm:text-xl bg-[#829476] p-2 rounded-3xl">
             이용 후기
           </p>
           <button

@@ -2,12 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@200;400&family=Jua&family=Nanum+Myeongjo&display=swap");
 
 body {
   -ms-overflow-style: none;
-  font-family: "Jua", sans-serif;
-  font-family: "Nanum Myeongjo", serif;
+  font-family: "IBM Plex Sans KR", sans-serif;
 }
 
 ::-webkit-scrollbar {
