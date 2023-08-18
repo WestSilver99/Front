@@ -14,6 +14,7 @@ const CommentPost = ({ postId }) => {
         console.log("error", error);
       });
   }, []);
+  console.log(postId);
   return (
     <div className="mt-4 xl:w-[850px]">
       {/* {boardData.replyList.map((reply, index) => (
