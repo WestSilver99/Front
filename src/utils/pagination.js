@@ -16,7 +16,7 @@ const Pagination = ({ postsPerPage, totalPosts, currentPage, paginate }) => {
   return (
     <nav className="my-4 text-[#96A68B] text-[16px]">
       <ul className="flex justify-center">
-        <li className="mx-2">
+        <li className="mx-2 sm:mx-1">
           <button
             onClick={() => paginate(1)}
             className="mt-1 bg-transparent hover:text-black font-bold py-2 rounded"
@@ -25,7 +25,7 @@ const Pagination = ({ postsPerPage, totalPosts, currentPage, paginate }) => {
           </button>
         </li>
         {currentPage > 1 && (
-          <li className="mx-2">
+          <li className="mx-2 sm:mx-1">
             <button
               onClick={() => paginate(currentPage - 1)}
               className="mt-1 bg-transparent  hover:text-black font-bold py-2 rounded"
@@ -35,7 +35,7 @@ const Pagination = ({ postsPerPage, totalPosts, currentPage, paginate }) => {
           </li>
         )}
         {pageNumbers.map((number) => (
-          <li key={number} className="mx-2">
+          <li key={number} className="mx-2 sm:mx-1">
             <button
               onClick={() => paginate(number)}
               className={`${
@@ -49,7 +49,7 @@ const Pagination = ({ postsPerPage, totalPosts, currentPage, paginate }) => {
           </li>
         ))}
         {currentPage < pageNumbers.length && (
-          <li className="mx-2">
+          <li className="mx-2 sm:mx-1">
             <button
               onClick={() => paginate(currentPage + 1)}
               className="mt-1 bg-transparent hover:text-black font-bold py-2 rounded"
@@ -58,7 +58,7 @@ const Pagination = ({ postsPerPage, totalPosts, currentPage, paginate }) => {
             </button>
           </li>
         )}
-        <li className="mx-2">
+        <li className="mx-2 sm:mx-1">
           <button
             onClick={() => paginate(pageNumbers.length)}
             className="mt-1 bg-transparent hover:text-black font-bold py-2 rounded"
