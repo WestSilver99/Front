@@ -10,8 +10,8 @@ const TrafficMountains = ({ mntninfopoflc, pbtrninfodscrt }) => {
   return (
     <div>
       <div className="flex flex-row">
-        <div className="w-2/3 h-[167px] p-4 my-2 mr-2 bg-[#EAF3EC] ">
-          <p className="text-start text-[28px] sm:text-xl mb-5 font-bold">
+        <div className="w-2/3 h-[167px] rounded-[5px] p-4 my-2 mr-2 bg-[#EAF3EC] ">
+          <p className="text-start text-[24px] sm:text-xl mb-5 font-bold">
             산 소재지
           </p>
           <p className="text-start w-full  bg-[#C2D6B4] text-[16px] sm:text-[12px] p-2">
@@ -20,12 +20,12 @@ const TrafficMountains = ({ mntninfopoflc, pbtrninfodscrt }) => {
         </div>
 
         <div
-          className={`w-1/3 h-[167px] p-4 my-2 ml-2 bg-[#EAF3EC] ${
+          className={`w-1/3 h-[167px] rounded-[5px] p-4 my-2 ml-2 bg-[#EAF3EC] ${
             showTraffic ? "h-auto" : "h-[167px]"
           } transition-all relative`}
         >
           <div className="flex flex-row justify-between items-center">
-            <p className="text-[28px] mb-1 font-bold sm:text-[12px]">
+            <p className="text-[24px] mb-1 font-bold sm:text-[12px]">
               교통정보 보기
             </p>
             <button onClick={toggleShowTraffic} className="ml-2 ">

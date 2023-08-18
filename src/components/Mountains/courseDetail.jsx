@@ -6,14 +6,14 @@ const CourseDetails = ({ course }) => {
   return (
     <div>
       <div>
-        <h2 className="text-[32px] sm:text-[28px] font-bold my-10 pb-3 border-b-[2px] border-[#6E7B65]">
+        <h2 className="text-[30px] sm:text-[28px] font-bold my-10 pb-3 border-b-[2px] border-[#6E7B65]">
           등산로 상세구간
         </h2>
         <div>
           {course.map((course, index) => (
             <div key={index} className="my-4">
               <div className="flex justify-between border-b-[1px] border-[#96A68B]">
-                <h3 className="text-[24px] sm:text-[22px] text-start text-[#6E7B65] font-extrabold my-2 ">
+                <h3 className="text-[22px] sm:text-[22px] text-start text-[#6E7B65] font-extrabold my-2 ">
                   {course.pmntn_nm}
                 </h3>
                 <button
@@ -25,7 +25,7 @@ const CourseDetails = ({ course }) => {
               </div>
               {openIndex === index && (
                 <>
-                  <div className="p-6 xl:w-[850px] bg-[#C2D6B4] mt-2">
+                  <div className="p-6 xl:w-[850px] bg-[#EAF3EC] mt-2">
                     {course.description.map((item, idx) => (
                       <p key={idx} className="mb-2">
                         {item}
@@ -33,15 +33,35 @@ const CourseDetails = ({ course }) => {
                     ))}
                   </div>
                   <div className="flex flex-row">
-                    <div className="w-1/4 sm:w-1/2 h-[167px] sm:text-[14px] p-4 my-2 mr-2 bg-[#C2D6B4]">
-                      <p>등산로 길이: {course.pmntn_lt}</p>
-                      <p>상행시간: {course.pmntn_uppl}</p>
-                      <p>하행시간: {course.pmntn_godn}</p>
-                      <p>등산 난이도: {course.pmntn_dffl}</p>
+                    <div className="w-1/4 sm:w-1/2 h-[167px] sm:text-[14px] p-4 my-2 mr-2 bg-[#EAF3EC]">
+                      <div className="flex flex-row justify-between mb-1">
+                        <span>등산로 길이</span>{" "}
+                        <span className="w-[75px] text-center h-[30px] bg-[#C2D6B4] rounded-md">
+                          {course.pmntn_lt}
+                        </span>
+                      </div>
+                      <div className="flex flex-row justify-between mb-1">
+                        <span>상행시간</span>{" "}
+                        <span className="w-[75px] text-center h-[30px] bg-[#C2D6B4] rounded-md">
+                          {course.pmntn_uppl}
+                        </span>
+                      </div>
+                      <div className="flex flex-row justify-between mb-1">
+                        <span>하행시간</span>{" "}
+                        <span className="w-[75px] text-center h-[30px] bg-[#C2D6B4] rounded-md">
+                          {course.pmntn_godn}
+                        </span>
+                      </div>
+                      <div className="flex flex-row justify-between mb-1">
+                        <span>등산 난이도</span>{" "}
+                        <span className="w-[75px] text-center h-[30px] bg-[#C2D6B4] rounded-md">
+                          {course.pmntn_dffl}
+                        </span>
+                      </div>
                     </div>
-                    <div className="w-3/4 sm:w-1/2 h-[167px] p-4 my-2 ml-2 bg-[#C2D6B4]">
+                    <div className="w-3/4 sm:w-1/2 h-[167px] p-4 my-2 ml-2 bg-[#EAF3EC]">
                       <div>
-                        <p className="text-[24px] mb-1 font-bold sm:text-[14px]">
+                        <p className="text-[22px] mb-1 font-bold sm:text-[14px]">
                           등산코스 위치 보기
                         </p>
 
