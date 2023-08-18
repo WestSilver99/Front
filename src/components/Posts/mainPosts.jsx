@@ -3,6 +3,8 @@ import Post from "@components/Posts/Post";
 import Pagination from "@utils/pagination";
 import dummyData from "@hooks/postdummy";
 
+// DummyData만 axios.get으로 가져온 데이터로 바꿔주면 끝!!
+
 const MainPosts = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [postPerPage] = useState(8);
