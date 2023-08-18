@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import kakaoMapImg from "@assets/kakaoMap.png";
+import { FaLocationDot } from "react-icons/fa6";
 
 const CourseDetails = ({ course }) => {
   const [openIndex, setOpenIndex] = useState(-1);
@@ -44,18 +44,21 @@ const CourseDetails = ({ course }) => {
                         <p className="text-[24px] mb-1 font-bold sm:text-[14px]">
                           등산코스 위치 보기
                         </p>
-                        <a
-                          target="_blank"
-                          href={`https://map.kakao.com/link/to/${course.locationName},${course.latitued},${course.longitude}`}
-                          rel="noreferrer"
-                        >
-                          <img
-                            src={kakaoMapImg}
-                            alt="kakao"
-                            className="w-[350px] h-[87px] sm:mt-8 sm:h-[50px]"
-                          />
-                        </a>
-                        {/* <KakaoMap /> */}
+
+                        <button>
+                          <a
+                            target="_blank"
+                            href={`https://map.kakao.com/link/to/${course.locationName},${course.latitued},${course.longitude}`}
+                            rel="noreferrer"
+                          >
+                            <div className="flex items-center justify-center w-48 sm:w-[130px] sm:h-[60px] sm:mt-5 h-20 rounded-xl bg-kakao-yellow text-2xl sm:text-xl">
+                              <FaLocationDot className="mr-2 sm:text-base sm:mr-1" />
+                              <span className="text-center font-mono uppercase font-extrabold">
+                                kakao map
+                              </span>
+                            </div>
+                          </a>
+                        </button>
                       </div>
                     </div>
                   </div>

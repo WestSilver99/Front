@@ -4,6 +4,7 @@ import MountainImages from "@components/Mountains/mountainsImage";
 import CourseImages from "@components/Mountains/courseImage";
 import TrafficMountains from "@components/Mountains/traffic";
 import CourseDetails from "@components/Mountains/courseDetail";
+import WritePostWithDate from "@pages/Comment";
 
 const MountainDetail = () => {
   const { id } = useParams();
@@ -20,6 +21,7 @@ const MountainDetail = () => {
             pbtrninfodscrt={post.pbtrninfodscrt}
           />
           <CourseDetails course={post.course} />
+          <WritePostWithDate postId={id} />
         </div>
       </div>
     </div>
