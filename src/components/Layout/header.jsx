@@ -27,7 +27,7 @@ const Header = () => {
     <nav className="w-full xl:py-6 xl:px-20 md:px-10 md:mb-8 md:mt-4 lg:mb-8 lg:mt-5 ">
       <div className="max-w-screen-xl ml-3 flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center">
-          <span className="text-3xl text-[#96A68C] shadow-black xl:text-[60px] lg:text-[55px] md:text-[40px] font-semibold whitespace-nowrap">
+          <span className="text-3xl text-[#96A68C] shadow-black xl:text-[60px] lg:text-[55px] md:text-[40px] font-extrabold whitespace-nowrap">
             SANTA
           </span>
         </Link>

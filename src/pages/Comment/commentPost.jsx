@@ -3,10 +3,9 @@ import React, { useEffect, useState } from "react";
 
 const CommentPost = ({ postId }) => {
   const [boardData, setBoardData] = useState([]);
-
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/board/${postId}`)
+      .get(`http://43.202.134.74:8080/board/${postId}`)
       .then((res) => {
         setBoardData(res.data);
       })
@@ -14,15 +13,14 @@ const CommentPost = ({ postId }) => {
         console.log("error", error);
       });
   }, []);
-  console.log(postId);
+  // console.log(postId);
+  console.log(boardData);
   return (
     <div className="mt-4 xl:w-[850px]">
-      {/* {boardData.replyList.map((reply, index) => (
-        <div key={index}>
-          <p className="mb-3 font-bold">{reply.content}</p>
-          <p className="text-right text-gray-400 ">{reply.regDate}</p>
-          <hr className="bg-[#829476] my-10" />
-        </div>
+      <p>{boardData.id}</p>
+      <p>{boardData.hkngpntdscrt}</p>
+      {/* {boardData.replyList.map((reply) => (
+        <p key={reply.id}>{reply.content}</p>
       ))} */}
     </div>
   );
