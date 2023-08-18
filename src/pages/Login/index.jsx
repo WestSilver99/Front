@@ -14,7 +14,7 @@ const Login = () => {
   const KAKAO_AUTH_URL = `https://kauth.kakao.com/oauth/authorize?client_id=${REST_API_KEY}&redirect_uri=${REDIRECT_URI}&response_type=code`;
 
   return (
-    <div className="flex flex-col items-center h-screen">
+    <div className="flex flex-col items-center h-screen mt-10">
       <div className="text-left">
         <h1 className="text-3xl font-bold mb-5">회원가입</h1>
         <div className="mb-5">
@@ -32,7 +32,7 @@ const Login = () => {
         </Link>
       </button>
 
-      <div className="flex items-center justify-center mt-52 space-x-4">
+      <div className="flex items-center justify-center mt-40 space-x-4">
         <div className="flex flex-col items-center">
           <img
             style={{

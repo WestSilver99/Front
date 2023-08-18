@@ -27,9 +27,8 @@ const Auth = () => {
         .then((res) => {
           //백에서 완료후 우리사이트 전용 토큰 넘겨주는게 성공했다면
           console.log(res);
-          const token = res.headers.authorization;
-          window.localStorage.setItem("token", token);
-
+          // const token = res.headers.authorization;
+          // window.localStorage.setItem("token", token);
           //계속 쓸 정보들( ex: 이름) 등은 localStorage에 저장해두자
           localStorage.setItem("name", res.data.account.kakaoName);
           //로그인이 성공하면 이동할 페이지

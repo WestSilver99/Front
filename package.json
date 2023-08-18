@@ -48,5 +48,5 @@
     "react-app-alias": "^2.2.2",
     "tailwindcss": "^3.3.3"
   },
-  "proxy": "http://101.101.217.88"
+  "proxy": "http://8080"
 }
